@@ -1,0 +1,18 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_empty_else: true
+    avoid_relative_lib_imports: true
+    always_declare_return_types: true
+    annotate_overrides: true
+    prefer_single_quotes: true
+    unnecessary_const: true
+    unnecessary_new: true
+    
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+  errors:
+    invalid_annotation_target: ignore

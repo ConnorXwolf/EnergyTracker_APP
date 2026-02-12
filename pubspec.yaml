@@ -1,0 +1,53 @@
+name: energytrackerapp
+description: Personal Energy and Productivity Tracker for chronic illness management
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # 狀態管理
+  flutter_riverpod: ^2.4.9
+  
+  # 本地數據庫
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # 本地存儲
+  shared_preferences: ^2.2.2
+  
+  # 數據模型
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  
+  # UI 組件
+  fl_chart: ^0.66.0
+  table_calendar: ^3.0.9
+  intl: ^0.18.1
+  
+  # 工具庫
+  uuid: ^4.3.3
+  logger: ^2.0.2+1
+  
+  # 備份功能
+  path_provider: ^2.1.1
+  share_plus: ^9.0.0
+  file_picker: ^8.0.0
+  archive: ^3.4.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  
+  # 代碼生成（使用兼容版本）
+  build_runner: ^2.4.6
+  freezed: ^2.4.5
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
